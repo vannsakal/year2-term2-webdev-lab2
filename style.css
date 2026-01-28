@@ -77,3 +77,49 @@ button {
     color: #57606a;
     margin-top: 20px;
 }
+
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  border: none;
+  border-top: 2px gray solid;
+}
+
+.auth-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: white;
+  color: black;
+
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.auth-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.auth-btn:hover {
+  background: #f5f5f5;
+}
+
+.auth-btn.google {
+  border-color: #ddd;
+}
+
+.auth-btn.microsoft {
+  border-color: #ddd;
+  margin-top: -10px;
+}
